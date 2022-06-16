@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "run-build": "serve ./dist -s -p 9000",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -13,6 +14,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
+    "sass": "^1.52.3",
+    "serve": "^13.0.2",
     "vite": "^2.9.9"
   }
 }
